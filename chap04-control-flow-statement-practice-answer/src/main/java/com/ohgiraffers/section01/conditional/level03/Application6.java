@@ -26,7 +26,7 @@ public class Application6 {
 				for (int i = 1; i <= user; i++) {
 					System.out.print(i + " ");
 				}
-				break;
+
 			} else {
 				System.out.println("1 이상의 숫자를 입력해주세요.");
 			}
