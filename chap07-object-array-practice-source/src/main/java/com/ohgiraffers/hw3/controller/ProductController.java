@@ -6,11 +6,15 @@ import java.util.Scanner;
 
 public class ProductController {
 
-    private ProductDTO[] pro = null;
+    private ProductDTO[] pro = new ProductDTO[10];
 
     public static int count = 0;
 
     Scanner sc = new Scanner(System.in);
+
+//    {
+//        pro = new ProductDTO[10];
+//    }
 
     public void mainMenu() {
 
