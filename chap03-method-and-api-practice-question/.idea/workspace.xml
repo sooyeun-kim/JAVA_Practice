@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29079142-a743-4efa-bc75-a82654fa5a79" name="Changes" comment="" />
+    <list default="true" id="29079142-a743-4efa-bc75-a82654fa5a79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../chap01-literal-and-variable-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-literal-and-variable-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap01-literal-and-variable-practice-question/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-literal-and-variable-practice-question/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap01-literal-and-variable-practice-question/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-literal-and-variable-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap02-operator-practice-question/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap05-array-practice-question/src/main/java/com/ohgiraffers/section01/level02/normal/Application4.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,19 +55,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/sooyeun/Desktop/dev/01_JAVA_Practice/chap03-method-and-api-practice-question",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sooyeun/Desktop/dev/01_JAVA_Practice/chap03-method-and-api-practice-question&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,6 +78,7 @@
       <updated>1695718578503</updated>
       <workItem from="1695718579582" duration="1993000" />
       <workItem from="1696161743418" duration="3859000" />
+      <workItem from="1697620457685" duration="2357000" />
     </task>
     <servers />
   </component>

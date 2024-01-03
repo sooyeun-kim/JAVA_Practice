@@ -13,7 +13,49 @@ public class Application4 {
 		  Random 클래스 사용 혹은 Math.random() 메소드를 사용
 	 */
 
-        /* 문제 잘못 이해해서 실패한 버전 -> 나중에 다시 해보기 */
+        /* 번호 6개씩 5줄 출력 */
+        int[] lotto = new int[6];
+        Random r = new Random();
+
+        for (int k = 0; k < 5; k++) {
+            for (int i = 0; i < lotto.length; i++) {
+                lotto[i] = r.nextInt(45) + 1;
+                for (int j = 0; i < j; j++) {
+                    if (lotto[i] == lotto[j]) {
+                        i--;
+                        break;
+                    }
+                }
+            }
+
+            for (int i = 1; i < lotto.length; i++) {
+
+                for (int j = 0; j < i; j++) {
+
+                    if (lotto[i] < lotto[j]) {
+                        int temp;
+                        temp = lotto[i];
+                        lotto[i] = lotto[j];
+                        lotto[j] = temp;
+                    }
+                }
+            }
+
+            for (int i = 0; i < lotto.length; i++) {
+
+                System.out.print(lotto[i] + "  ");
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
+
+        /* 번호 6개씩 5줄 출력 - 실패 */
 //        int[][] arr = new int[5][6];
 //        Random r = new Random();
 //
@@ -22,6 +64,15 @@ public class Application4 {
 //            for (int j = 0; j < arr[i].length; j++) {
 //
 //                arr[i][j] = r.nextInt(45) + 1;
+//                for (int k = 0; k < j; k++) {
+//                    if (arr[i][j] == arr[i][k]) {
+//                        j--;
+//                        if (i > 0) {
+//                            i--;
+//                        }
+//                        break;
+//                    }
+//                }
 //            }
 //        }
 //
@@ -53,42 +104,43 @@ public class Application4 {
 //        }
 
 
+        /* 번호 6개 한 줄 출력 */
+//        int[] lotto = new int[6];
+//        Random r = new Random();
+//
+//        for (int i = 0; i < lotto.length; i++) {
+//
+//            lotto[i] = r.nextInt(45) + 1;
+//
+//            for (int j = 0; j < i; j++) {
+//
+//                if (lotto[i] == lotto[j]) {
+//
+//                    i--;
+//                    break;
+//                }
+//
+//                }
+//            }
+//
+//        for (int i = 1; i < lotto.length; i++) {
+//
+//            for (int j = 0; j < i; j++) {
+//
+//                if (lotto[i] < lotto[j]) {
+//                    int temp;
+//                    temp = lotto[i];
+//                    lotto[i] = lotto[j];
+//                    lotto[j] = temp;
+//                }
+//            }
+//        }
+//
+//        for (int i = 0; i < lotto.length; i++) {
+//
+//            System.out.print(lotto[i] + " ");
+//        }
 
-        int[] lotto = new int[6];
-        Random r = new Random();
-
-        for (int i = 0; i < lotto.length; i++) {
-
-            lotto[i] = r.nextInt(45) + 1;
-
-            for (int j = 0; j < i; j++) {
-
-                if (lotto[i] == lotto[j]) {
-
-                    i--;
-                    break;
-                }
-
-                }
-            }
-
-        for (int i = 1; i < lotto.length; i++) {
-
-            for (int j = 0; j < i; j++) {
-
-                if (lotto[i] < lotto[j]) {
-                    int temp;
-                    temp = lotto[i];
-                    lotto[i] = lotto[j];
-                    lotto[j] = temp;
-                }
-            }
-        }
-
-        for (int i = 0; i < lotto.length; i++) {
-
-            System.out.print(lotto[i] + " ");
-        }
-
+//    }
     }
 }
